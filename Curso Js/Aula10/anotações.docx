@@ -1,0 +1,13 @@
+Eventos
+1- Quando mouse chega dentro da div, dispara o mouseenter
+2- Movendo mouse por dentro da div, dispara mousemove
+3- se clickar e segurar dentro da vid, dispara o mousedown
+4- quando clicar segurar e solta dentro da div, dispara o mouseup
+5- apertar e soltar dentro da div, eu dispara o click, 
+6- quando sair com o mouse de dentro da div, dispara o mouseout
+
+para disparar um evento, eu dependo de uma FUNÇÃO!!!!!
+
+function ação(paramento){
+    bloco = só ocorre quando a função for ativada
+}

@@ -1,0 +1,24 @@
+como Fazer uma árvore dom ?
+
+1- window - Janela do Navegador
+     1.1 - location = qual a localizaão do site
+     1.2 - documento = documneto atual
+        1.2.1 html {
+                head{
+                    meta,title,...
+                }
+                body{
+                    h1,p,p,div
+                }       strong
+        
+        }
+     1.3 history = de onde vc veio para onde vc vai
+     innerText vs innerHtml a difernreça é que o html pega tudo
+------------------------------------------------------------
+Como acessar elementos Dom?
+
+1-Por Marca =  getElementsByTagName()
+2-Por Id = getElementByid()
+3-Por Nome = getElementsByName()
+4-Por Classe = getElementsByClassName()
+5-Por Seletor 

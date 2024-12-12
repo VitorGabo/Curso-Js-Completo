@@ -1,0 +1,14 @@
+/* 
+1- Number.parseInt(n) -> converte a string para inteiro
+2- Number.parseFloat(n) -> Converte para Real
+3- Number(n) -> o javaScript se vira para descobrir
+4- Existe o String(n)
+5- n.toString()
+6- Templade String  `${}`, isso é muito bom!
+7- s.length -> me diz o tamanho, quantas letras existem
+8-s.toUpperCase() muda para maiúsculas
+9-toLoweCase() muda para minúsculas
+10- Document.write() -> faz aparecer na tela
+11- n1.toLocaleString('pt-BR', {style: 'currency' , currency: 'BRL'})
+12-var.replace('',''). Mudar isso por isso
+*/ 

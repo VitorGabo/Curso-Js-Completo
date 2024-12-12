@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos do Dom</title>
+    <style>
+        div.bloco{
+            display: flex;
+            justify-content: space-between;
+        }
+        div#area{
+            font: normal 18pt Arial;
+            background: green;
+            color: white;
+            width: 200px;
+            height: 200px;
+            line-height: 200px;
+            text-align: center;
+        }
+        div#area2{
+            font: normal 18pt Arial;
+            background: green;
+            color: white;
+            width: 200px;
+            height: 200px;
+            line-height: 200px;
+            text-align: center;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="bloco"><div id="area" >
+        interaja...
+    </div>
+    <div id="area2">interaja...</div></div>
+    
+ 
+
+    <script>
+        var b =document.getElementById('area2')
+        var a = window.document.getElementById('area')
+        function clicar(){
+            
+            area.innerText ='clicou'
+            area2.innerText ='clicou'
+            a.style.background='red'
+            b.style.background='red'
+        }
+        function entrar(){
+        a.innerText='Entrou'
+        b.innerText='Entrou'
+            
+        }
+        function sair(){
+            a.innerText='saiu'
+            a.style.background='green'
+            b.innerText='saiu'
+            b.style.background='green'
+        }
+        a.addEventListener('click',clicar)
+        a.addEventListener('mouseenter',entrar)
+        a.addEventListener('mouseout',sair)
+
+        b.addEventListener('click',clicar)
+        b.addEventListener('mouseenter',entrar)
+        b.addEventListener('mouseout',sair)
+    
+   
+    </script>
+</body>
+</html>
